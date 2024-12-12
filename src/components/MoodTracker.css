@@ -1,0 +1,68 @@
+/* General styling for the Mood Tracker container */
+.mood-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+}
+
+/* Styling for the header */
+.mood-tracker-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Styling for the input field */
+.mood-input {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Focus effect on the input field */
+.mood-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling for the submit button */
+.mood-submit-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.mood-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the saved mood display */
+.saved-mood {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #e7f3e7;
+    border-radius: 8px;
+    border: 1px solid #c4e6c4;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.saved-mood h3 {
+    font-size: 1.2rem;
+    color: #333;
+}

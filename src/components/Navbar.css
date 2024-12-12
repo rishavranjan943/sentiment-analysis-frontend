@@ -1,0 +1,51 @@
+/* nav.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    align-items: center;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .buttons button,
+.navbar .buttons a {
+    color: white;
+    background-color: #f44336;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navbar .buttons a {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .buttons button {
+    background-color: #f44336;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navbar .buttons a:hover,
+.navbar .buttons button:hover {
+    background-color: #d32f2f;
+}

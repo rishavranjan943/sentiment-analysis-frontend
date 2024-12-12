@@ -1,0 +1,67 @@
+/* Center the content and give some margin to the container */
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+}
+
+/* Heading styling */
+.history-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Style for loading and no data message */
+.history-container p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Styling the history list */
+.history-list {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Each history entry styling */
+.history-item {
+    background-color: #fafafa;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling for mood, sentiment, and timestamp */
+.history-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.history-item strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Last item styling for spacing */
+.history-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Make the loading and no data message stand out */
+.history-container .loading-message,
+.history-container .no-data-message {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #888;
+}
